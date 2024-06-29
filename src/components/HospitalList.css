@@ -1,0 +1,43 @@
+/* src/components/HospitalList.css */
+.hospital-list {
+    margin-top: 20px;
+}
+
+.hospital-list h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.hospital-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.hospital {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    scroll-snap-align: start;
+    background-color: #f9f9f9;
+}
+
+.hospital-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.hospital h3 {
+    margin: 10px 0 5px;
+}
+
+.hospital p {
+    margin: 5px 0;
+}
